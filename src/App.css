@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.app-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  text-align: center;
+  color: #f7ddd5; /* Deep Brown */
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.book-card {
+  background: #FFD699; /* Soft Orange */
+  border-radius: 12px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  width: 250px;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+  background: #FFB74D; /* Warm Orange */
+}
+
+.book-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.book-info {
+  padding: 10px 0;
+}
+
+.book-title {
+  font-size: 18px;
+  color: #5D4037; /* Deep Brown */
+  font-weight: bold;
+}
+
+.book-author {
+  font-size: 16px;
+  color: #D2691E; /* Chocolate Brown */
+}
+
+.book-description {
+  font-size: 14px;
+  color: #5D4037; /* Deep Brown */
+}
+
+body {
+  background-color: #004D40; /* Muted Lavender */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.book-price {
+  font-size: 16px;
+  color: #D2691E; /* Chocolate Brown */
+  font-weight: bold;
+}
+
+.add-to-cart {
+  background-color: #5D4037;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-to-cart:hover {
+  background-color: #D2691E;
+}
